@@ -1,0 +1,14 @@
+                    User
+                      │
+                      ▼
+                Grafana Dashboard
+                      │
+                      ▼
+                 Prometheus
+              ▲              ▲
+              │              │
+      Node Exporter      cAdvisor
+              │              │
+              └───────┬──────┘
+                      │
+               Docker Host/System
